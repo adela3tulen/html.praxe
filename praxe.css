@@ -1,0 +1,138 @@
+ul li {
+    display: inline;
+    margin-right: 15px;
+    padding-left: 120px;
+    padding-right: 120px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    border-radius: 50px;
+    background-color: rgb(196, 118, 255);
+    margin-bottom: 20px;
+  }
+#ap {
+    text-align: center;
+}
+
+#menu a.active {
+    color: rgb(54, 0, 179);
+}
+
+#menu a:hover:not(.active) {
+    color: rgb(54, 0, 179);
+}
+
+body.dark-mode {
+    background: #111111;
+    color: #ffffff;
+}
+
+#btn {
+    border-radius: 50px;
+    margin: 10px;
+    background: linear-gradient(-45deg, rgb(253, 125, 255), #8400ff 80%);
+    padding: 5px 10px;
+    cursor: pointer;
+    border: 2px solid black;
+}
+
+#ig {
+    border: 2px solid purple;
+    border-radius: 50px;
+    width: 300px;
+    margin: 0 auto;
+}
+
+nav {
+    display: flex;
+    flex-direction: column;   
+    align-items: center;     
+    background-color: rgb(114, 0, 163);
+    padding: 10px 20px;
+}
+
+table {
+    margin: 0 auto;
+    border-collapse: collapse;
+    width: 500px;
+    margin-top: 20px;
+    background-color: #f175ff;
+}
+ 
+th, td {
+    border: 3px solid #000000;
+    padding: 10px;
+    text-align: center;
+}
+ 
+th {
+    background: #e100ff;
+}
+
+.menu {
+    display: flex;
+    gap: 25px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    transition: 0.2s;
+}
+
+.menu a:hover {
+    color: yellow;
+}
+
+.sekce {
+    padding: 50px 20px;
+}
+
+
+
+
+
+
+.galerie {
+    display: flex;
+    gap: 20px;
+}
+
+.galerie img {
+    width: 200px;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+.galerie img:hover {
+    transform: scale(1.05);
+}
+
+
+form {
+    margin: 0 auto;
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+ 
+input, textarea {
+    padding: 10px;
+    border: 1px solid #8800ff;
+    border-radius: 5px;
+}
+
+
+body {
+    align-items: center;
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    background: var(--bg);
+    color: var(--text);
+    transition: 0.3s;
+}
