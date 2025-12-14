@@ -13,13 +13,6 @@ ul li {
     text-align: center;
 }
 
-#menu a.active {
-    color: rgb(54, 0, 179);
-}
-
-#menu a:hover:not(.active) {
-    color: rgb(54, 0, 179);
-}
 
 body.dark-mode {
     background: #111111;
@@ -53,13 +46,12 @@ nav {
 table {
     margin: 0 auto;
     border-collapse: collapse;
-    width: 500px;
-    margin-top: 20px;
+    width: 600px;
     background-color: #f175ff;
 }
  
 th, td {
-    border: 3px solid #000000;
+    border: 5px solid #000000;
     padding: 10px;
     text-align: center;
 }
@@ -68,47 +60,10 @@ th {
     background: #e100ff;
 }
 
-.menu {
-    display: flex;
-    gap: 25px;
-    list-style: none;
-    padding: 0;
-    margin: 0;
-}
-
-.menu a {
-    color: white;
-    text-decoration: none;
-    font-weight: 500;
-    transition: 0.2s;
-}
-
-.menu a:hover {
-    color: yellow;
-}
-
-.sekce {
-    padding: 50px 20px;
-}
-
-
-
-
-
-
-.galerie {
-    display: flex;
-    gap: 20px;
-}
-
-.galerie img {
+img {
     width: 200px;
+    height: 200px;
     border-radius: 8px;
-    transition: 0.3s;
-}
-
-.galerie img:hover {
-    transform: scale(1.05);
 }
 
 
@@ -122,7 +77,7 @@ form {
  
 input, textarea {
     padding: 10px;
-    border: 1px solid #8800ff;
+    border: 2px solid #8800ff;
     border-radius: 5px;
 }
 
@@ -132,7 +87,4 @@ body {
     text-align: center;
     font-family: "Poppins", sans-serif;
     margin: 0;
-    background: var(--bg);
-    color: var(--text);
-    transition: 0.3s;
 }
